@@ -138,3 +138,44 @@ Outbound : 0.0.0.0/0 모든 트래픽에 대해서 허용
    Multi AZ
 <br>
 
+### 12 ~ 13 주차
+1. LAMP를 이루는 구성요소 4가지는 무엇의 약자인가? (소문자로 작성)
+   - 정답<br>
+   Linux<br>
+   Apache<br>
+   MySQL<br>
+   PHP<br>
+<br>
+
+2. Linux에서 시작 프로그램을 관리하기 위한 systemd를 관리하기 위한 명령줄 도구의 이름은?
+   - 정답<br>
+   systemctl
+<br>
+
+3. 네트워크 트래픽을 하나 이상의 서버나 장비로 분산하기 위해 사용되는 기술을 무엇이라 하는가?<br>
+   - 해설<br>
+   ![week12-1](Img/week12-1.png)
+   - 정답<br>
+   load balancing
+<br>
+
+4. 웹 트래픽 증가에 대응하기 위한 방법 2 가지의 명칭을 작성하고, <br>
+2 가지 방법의 차이점이 무엇인지 간단히 작성하시오.<br>
+   - 정답<br>
+   웹 트래픽 증가에 따른 대응 방법<br>
+   1. Scale Up<br>
+       - CPU/RAM/Disk 성능/Network 대역폭 등 증가
+       - 비싸고 성능 좋은 서버로 변경
+   2. Scale Out (로드 밸런싱과 함께 활용)
+       - 부하를 처리할 서버 대수를 늘림
+       - 저렴한 서버 여러 대를 이용해 더 많은 부하를 감당
+<br>
+
+5. ALB는 OSI 7 Layer 중 어느 계층의 정보를 이용해 로드 밸런싱을 수행하는가?<br>
+   - 해설<br>
+   ALB(Application Load Balancer)<br>
+   OSI 7 Layer 중 Application Layer에 속하는 패킷을 처리할 수 있음<br>
+   HTTP/HTTPS 프로토콜<br>
+   - 정답<br>
+   Application
+<br>
